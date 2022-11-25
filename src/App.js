@@ -3,10 +3,11 @@ import './App.css';
 
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="mt-1 h4">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -17,8 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <button className="mt-5 btn btn-primary">sample</button>
       </header>
     </div>
+    
   );
 }
 
