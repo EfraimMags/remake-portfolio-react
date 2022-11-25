@@ -4,13 +4,24 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import About from './components/About'
+import Tools from './components/Tools'
+import Contacts from './components/Contact';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from './components/Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
     <HeroSection />
+    <About />
+    <Tools />
+    <div className ="ontainer mt-5"></div>
+    <Projects />
+    <Contacts/>
+    <Footer />
   </React.StrictMode>
 );
 

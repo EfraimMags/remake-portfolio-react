@@ -3,6 +3,16 @@ html{
   scroll-behavior: smooth;
   
 }
+.profilePict{
+  width :150px;
+  height:150px; 
+}
+.my-button{
+ background-color:  rgb(64, 237, 232);
+ border: 1px solid;
+ box-shadow: 5px 5px rgb(64, 237, 232);
+ color:#1F1D20;
+}
 .my-button:hover{
   box-shadow: 2px 2px rgb(64, 237, 232);
 }
@@ -40,7 +50,12 @@ header{
     z-index: 1;
     width: 100%;
     left: -1px;
+    top:0px;
 }       
+.toolImg{
+  width :80px; 
+  height:80px; 
+}
 .navigation{
   margin-left: 10px;
   border: 1px solid #1F1D20;
@@ -65,12 +80,7 @@ header{
 .about{
   color:white;
 }
-.my-button{
- background-color:  rgb(64, 237, 232);
- border: 1px solid;
- box-shadow: 5px 5px rgb(64, 237, 232);
- color:#1F1D20;
-}
+
 .highlight{
   background-color:  rgb(64, 237, 232);
   color:white;
